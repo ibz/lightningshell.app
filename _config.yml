@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: Lightning Shell
+description: "Your personal server's shell"
+baseurl: ""
+github:
+  repository_url: https://github.com/ibz/lightning-shell
+  repository_nwo: ibz/lightning-shell
