@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Lightning Shell
 
 **Lightning Shell** is a web shell for Bitcoin nodes / personal servers.
