@@ -6,7 +6,7 @@ layout: default
 
 **Lightning Shell** is a web shell for Bitcoin nodes / personal servers.
 
-Currently, it is used on [Umbrel](https://getumbrel.com/) and [Citadel](https://runcitadel.space/).
+It is currently used on [Umbrel](https://getumbrel.com/) and [Citadel](https://runcitadel.space/).
 
 Technically it's a Docker container with [ttyd](https://tsl0922.github.io/ttyd/) and some additional utilities.
 
