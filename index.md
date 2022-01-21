@@ -16,21 +16,19 @@ The web-based tools that come with these personal servers are amazing, but there
 
 ### Why not just SSH?
 
-SSH works very well indeed. The problem is the compilation, packaging and configuration of the various utilities.
+SSH works very well indeed for many people.
 
-Let's say you compile `lntop` and make it work on your node - it's not hard, but it may be a bit of a challenge for a complete beginner. Then you want to update the OS and reflash the SD card - _bang_ you just lost `lntop`. Good luck bringing it back if you didn't write down the exact steps.
+On one hand, Lightning Shell wants to be an [on-ramp to tinkering](https://ibz.me/posts/tinkerer-friendly-platforms/) for those that are yet to discover the Linux Shell.
 
-And every such utility has its own quirks about how it needs to be installed and configured. You spend time figuring it all out, then you lose it all with a simple reflash.
-
-An alternative is, of course, to keep scripts of the exact steps so you can re-run them when needed. And this is exactly what **Lightning Shell** does: it builds and packages various command line utilities so you don't have to.
+On the other hand, Lightning Shell makes it so you don't need to worry about the compilation, packaging and configuration of the various utilities included. When you type `lntop` it just works.
 
 ## Installing
 
 The easiest way to install **Lightning Shell** is **from your node's *app store***.
 
-At the opposite end of the spectrum, you could simply copy-paste parts of the Dockerfile to build only the tools you want without actually installing Lightning Shell.
+At the opposite end of the spectrum you could simply copy-paste parts of the Dockerfile to build only the tools you want without actually installing Lightning Shell.
 
-There are countless other ways to make use of it in between the two extremes: you could for example run the pre-built Docker image yourself, you could fork the repo and customize the Docker file... It's all up to you.
+There are countless other ways to make use of it in between the two extremes because after all you can fork the repo, customize the Dockerfile, build it and run it yourself.
 
 ## Included utilities
 
@@ -50,4 +48,4 @@ Running any of the above-mentioned utilities will just work without you having t
 
 Your personal server OS passes the `LND_IP` environment variable and mounts the `lnd` directory under `/lnd` when it launches the **Lightning Shell** Docker container.
 
-Then, there are some additional scripts in `~/.local/bin` named the same as the included utilities, which take care of passing the necessary arguments to the respective utilities.
+There are some additional scripts in `~/.local/bin` named the same as the included utilities, which take care of passing the necessary arguments to the respective utilities.
