@@ -35,3 +35,8 @@ What's new:
 * use GitHub actions to build the images
 * use the GitHub registry to host the images
 * add [`bos`](https://github.com/alexbosworth/balanceofsatoshis) (Balance of Satoshis)
+
+<h1 id="v0.1.1">v0.1.1</h1>
+<small>2022-01-07</small>
+
+First official release on [Umbrel](https://getumbrel.com/).
