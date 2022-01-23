@@ -13,6 +13,9 @@ author:
   url: https://ibz.me
   email: lnsh@ibz.me
 
+plugins:
+  - jekyll-redirect-from
+
 permalink: /posts/:title/
 
 defaults:
