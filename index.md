@@ -33,12 +33,15 @@ There are countless other ways to make use of it in between the two extremes bec
 ## Included utilities
 
 - `lncli` (of course)
-- [`bos`](https://github.com/alexbosworth/balanceofsatoshis)
-- [`charge-lnd`](https://github.com/accumulator/charge-lnd)
-- [`igniter`](https://github.com/RooSoft/igniter)
-- [`lntop`](https://github.com/edouardparis/lntop)
-- [`rebalance-lnd`](https://github.com/C-Otto/rebalance-lnd)
-- [`suez`](https://github.com/prusnak/suez)
+- [`bos`](https://github.com/alexbosworth/balanceofsatoshis) - Balance of Satoshis - Commands for working with LND balances
+- [`charge-lnd`](https://github.com/accumulator/charge-lnd) - A simple policy based fee manager for LND
+- [`dog`](https://github.com/ogham/dog) - A command-line DNS client
+- [`gping`](https://github.com/orf/gping) - Ping, but with a graph
+- [`igniter`](https://github.com/RooSoft/igniter) - Circular rebalancing by sending a payment back to yourself using a specific route
+- [`lntop`](https://github.com/edouardparis/lntop) - LN terminal dashboard
+- [`oha`](https://github.com/hatoo/oha) - HTTP load generator with TUI animation
+- [`rebalance-lnd`](https://github.com/C-Otto/rebalance-lnd) - A script that can be used to balance lightning channels of a LND node
+- [`suez`](https://github.com/prusnak/suez) - Tool for pretty printing and optimizing Lightning Network channels
 
 ## Configuration
 
