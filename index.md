@@ -35,12 +35,16 @@ There are countless other ways to make use of it in between the two extremes bec
 - `lncli` (of course)
 - [`bos`](https://github.com/alexbosworth/balanceofsatoshis) - Balance of Satoshis - Commands for working with LND balances
 - [`charge-lnd`](https://github.com/accumulator/charge-lnd) - A simple policy based fee manager for LND
+- [`csview`](https://github.com/wfxr/csview) - A high performance CSV viewer
 - [`dog`](https://github.com/ogham/dog) - A command-line DNS client
 - [`gping`](https://github.com/orf/gping) - Ping, but with a graph
 - [`igniter`](https://github.com/RooSoft/igniter) - Circular rebalancing by sending a payment back to yourself using a specific route
 - [`lntop`](https://github.com/edouardparis/lntop) - LN terminal dashboard
 - [`oha`](https://github.com/hatoo/oha) - HTTP load generator with TUI animation
+- [`perfectly-balanced`](https://github.com/cuaritas/perfectly-balanced) - Script to make your LND node perfectly balanced
+- [`rates`](https://github.com/lunush/rates) - Currency exchange rates in your terminal
 - [`rebalance-lnd`](https://github.com/C-Otto/rebalance-lnd) - A script that can be used to balance lightning channels of a LND node
+- [`sc-im`](https://github.com/andmarti1424/sc-im) - Spreadsheet program for your terminal
 - [`suez`](https://github.com/prusnak/suez) - Tool for pretty printing and optimizing Lightning Network channels
 
 ## Configuration
