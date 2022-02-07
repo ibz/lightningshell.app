@@ -27,7 +27,7 @@ What's new:
 * add [`oha`](https://github.com/hatoo/oha)
 * update `bos` to v11.32.0
 
-<h1 id="v0.1.3">v0.1.3 (iOS fix)</h1>
+<h1 id="v0.1.3">v0.1.3 (iOS fix attempt)</h1>
 <small>2022-01-15</small>
 
 What's new:
