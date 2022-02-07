@@ -3,6 +3,19 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.5">v0.1.5 (Numbery)</h1>
+<small>2022-02-07</small>
+
+What's new:
+
+* add [`sc-im`](https://github.com/andmarti1424/sc-im)
+* add [`csview`](https://github.com/wfxr/csview)
+* add [`rates`](https://github.com/lunush/rates)
+* add [`perfectly-balanced`](https://github.com/cuaritas/perfectly-balanced)
+* add `links` web browser
+* update `rebalance-lnd` to v2.3
+* update `bos` to v11.44.0
+
 <h1 id="v0.1.4">v0.1.4 (Rusty)</h1>
 <small>2022-01-22</small>
 
