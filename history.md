@@ -3,6 +3,14 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.6">v0.1.6 (Rately)</h1>
+<small>2022-02-08</small>
+
+What's new:
+
+* remove `rates`, which was [way off](https://github.com/lunush/rates/issues/4)
+* add [`btc2fiat`](https://github.com/ibz/btc2fiat) - a completely new app, which does just one thing and works
+
 <h1 id="v0.1.5">v0.1.5 (Numbery)</h1>
 <small>2022-02-07</small>
 
