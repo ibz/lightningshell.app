@@ -8,7 +8,7 @@ layout: default
 
 What's new:
 
-* ability to run scripts when the Docker container is started
+* ability to run scripts [when the Docker container is started](/faq#on_start)
 
 <h1 id="v0.1.6">v0.1.6 (Rately)</h1>
 <small>2022-02-08</small>
