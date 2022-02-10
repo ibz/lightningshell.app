@@ -3,6 +3,13 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.7">v0.1.7</h1>
+<small>2022-02-10</small>
+
+What's new:
+
+* ability to run scripts when the Docker container is started
+
 <h1 id="v0.1.6">v0.1.6 (Rately)</h1>
 <small>2022-02-08</small>
 
