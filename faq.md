@@ -12,3 +12,9 @@ NB: This feature was added in [v0.1.7](/history#v0.1.7).
    `echo '#!/bin/sh' > /data/on_start.sh && chmod +x /data/on_start.sh`
 
 1. Now go ahead and edit this file, adding your custom commands.
+
+<h2 id="cron">How can I schedule a command to be run automatically?</h2>
+
+Lightning Shell doesn't support `cron`, but Umbrel does. You can edit the crontab using `crontab -e` (after you have SSHed into your Umbrel).
+
+The only tricky part is executing Lightning Shell commands from Umbrel. You need to get the ID of the Docker container, then execute the command using `docker exec`.
