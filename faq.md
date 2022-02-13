@@ -23,13 +23,23 @@ NB: This feature was added in [v0.1.7](/history#v0.1.7).
 
 Lightning Shell doesn't support `cron`, but your host OS such as Umbrel does. You can edit the crontab using `crontab -e` (after you have SSHed into your Umbrel!).
 
-You can then use [`lsh_exec.sh`](/faq#lsh_exec.sh) to execute Lightning Shell commands from Umbrel's `cron`. If you want the data printed by these commands to be available in Lightning Shell, you just have to save it under `/mnt/data/umbrel/app-data/lightning-shell/data/`.
+You can then use [`lsh_exec.sh`](/faq#lsh_exec.sh) to execute Lightning Shell commands from Umbrel's `cron`. If you want the data returned by these commands to be available in Lightning Shell, you just have to save it under `/mnt/data/umbrel/app-data/lightning-shell/data/`.
 
-For example, running the following will save the bitcoin price to `btc.csv`:
+For example, you could do the following:
 
-```
-echo `date +"%Y-%m-%d %H:%M"` `/mnt/data/umbrel/app-data/lightning-shell/data/lsh_exec.sh btc2fiat` >> /mnt/data/umbrel/app-data/lightning-shell/data/btc.csv
-```
+1. create a file `btc.csv`
+
+   `echo date,price > /data/btc.csv` (in Lightning Shell)
+
+2. periodically save the bitcoin price to `btc.csv` by adding the following to your Umbrel's crontab
+
+   ```
+    echo `date +"%Y-%m-%d %H:%M"`","`/mnt/data/umbrel/app-data/lightning-shell/data/lsh_exec.sh btc2fiat` >> /mnt/data/umbrel/app-data/lightning-shell/data/btc.csv
+   ```
+
+3. view the file using `csview` in Lightning Shell
+
+   `csview /data/btc.csv`
 
 <h2 id="lsh_exec.sh">What is lsh_exec.sh?</h2>
 
