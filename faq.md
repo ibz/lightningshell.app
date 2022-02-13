@@ -3,6 +3,12 @@ title: FAQ
 layout: default
 ---
 
+<h2 id="data">Where can I store my files?</h2>
+
+The best place to store files you don't want to lose is under `/data`. This directory is mounted from your personal server and the contents is not lost on OS update.
+
+If the files are truly important, you may also want to back them up. You could for example schedule a `rsync` to some other machine.
+
 <h2 id="on_start">How can I run a script when the container is started?</h2>
 
 NB: This feature was added in [v0.1.7](/history#v0.1.7).
