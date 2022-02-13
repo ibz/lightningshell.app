@@ -3,6 +3,14 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.8">v0.1.8</h1>
+<small>2022-02-13</small>
+
+What's new:
+
+* [lsh_exec.sh](/faq#lsh_exec.sh)
+* update `bos` to v11.52.3
+
 <h1 id="v0.1.7">v0.1.7</h1>
 <small>2022-02-10</small>
 
