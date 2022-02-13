@@ -32,20 +32,33 @@ There are countless other ways to make use of it in between the two extremes bec
 
 ## Included utilities
 
-- `lncli` (of course)
-- [`bos`](https://github.com/alexbosworth/balanceofsatoshis) - Balance of Satoshis - Commands for working with LND balances
+### General Lightning node management
+- `lncli` & [`bos`](https://github.com/alexbosworth/balanceofsatoshis) - The classics
+- [`lntop`](https://github.com/edouardparis/lntop) - LN terminal dashboard
+
+### Fee management
+- [`charge-lnd`](https://github.com/accumulator/charge-lnd) - Simple policy based fee manager
+- [`suez`](https://github.com/prusnak/suez) - Tool for pretty printing and optimizing channels
+
+### Rebalancing tools
+- [`rebalance-lnd`](https://github.com/C-Otto/rebalance-lnd)
+- [`igniter`](https://github.com/RooSoft/igniter) - Circular rebalancing by sending a payment back to yourself using a specific route
+- [`perfectly-balanced`](https://github.com/cuaritas/perfectly-balanced) - Script to make your LND node perfectly balanced
+
+### Bitcoin tools
 - [`btc2fiat`](https://github.com/ibz/btc2fiat) - Bitcoin price expressed in fiat currency. As simple as that.
-- [`charge-lnd`](https://github.com/accumulator/charge-lnd) - A simple policy based fee manager for LND
+
+### Data tools
+- `bc` - An arbitrary precision calculator language
 - [`csview`](https://github.com/wfxr/csview) - A high performance CSV viewer
+- [`jq`](https://stedolan.github.io/jq/) - JSON processor
+- [`sc-im`](https://github.com/andmarti1424/sc-im) - Spreadsheet program for your terminal
+
+### Networking
 - [`dog`](https://github.com/ogham/dog) - A command-line DNS client
 - [`gping`](https://github.com/orf/gping) - Ping, but with a graph
-- [`igniter`](https://github.com/RooSoft/igniter) - Circular rebalancing by sending a payment back to yourself using a specific route
-- [`lntop`](https://github.com/edouardparis/lntop) - LN terminal dashboard
+- [`links`](http://links.twibright.com/) - Web browser
 - [`oha`](https://github.com/hatoo/oha) - HTTP load generator with TUI animation
-- [`perfectly-balanced`](https://github.com/cuaritas/perfectly-balanced) - Script to make your LND node perfectly balanced
-- [`rebalance-lnd`](https://github.com/C-Otto/rebalance-lnd) - A script that can be used to balance lightning channels of a LND node
-- [`sc-im`](https://github.com/andmarti1424/sc-im) - Spreadsheet program for your terminal
-- [`suez`](https://github.com/prusnak/suez) - Tool for pretty printing and optimizing Lightning Network channels
 
 ## Configuration
 
