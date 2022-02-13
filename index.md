@@ -25,7 +25,7 @@ Technically it's a Docker container with [ttyd](https://tsl0922.github.io/ttyd/)
 - [`igniter`](https://github.com/RooSoft/igniter) - Circular rebalancing by sending a payment back to yourself using a specific route
 - [`perfectly-balanced`](https://github.com/cuaritas/perfectly-balanced) - Script to make your LND node perfectly balanced
 
-### Bitcoin tools
+### Market tools
 - [`btc2fiat`](https://github.com/ibz/btc2fiat) - Bitcoin price expressed in fiat currency. As simple as that.
 
 ### Data tools
