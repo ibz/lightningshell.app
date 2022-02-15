@@ -3,6 +3,16 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.9">v0.1.9</h1>
+<small>2022-02-14</small>
+
+What's new:
+
+* add `bitcoin-cli`
+* make `lsh_exec.sh` use the same `PATH` as `Lightning Shell`
+* add categories to apps
+* add `less`
+
 <h1 id="v0.1.8">v0.1.8</h1>
 <small>2022-02-13</small>
 
