@@ -16,6 +16,7 @@ author:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 permalink: /posts/:title/
 
