@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: Lightning Shell
 description: "Your personal server's shell"
 
-url: "https://lightningshell.app/"
+url: "https://lightningshell.app"
 baseurl: ""
 
 github:
