@@ -3,6 +3,15 @@ title: History
 layout: default
 ---
 
+<h1 id="v0.1.10">v0.1.10</h1>
+<small>2022-02-28</small>
+
+What's new:
+
+* add `lsh_exec_ni.sh` for non-interactive use (eg. from `cron`)
+* better explain `igniter.conf`
+* update `bos` to v11.55.0, `csview` to v1.0.1 and `gping` to v1.3.0
+
 <h1 id="v0.1.9">v0.1.9</h1>
 <small>2022-02-14</small>
 
