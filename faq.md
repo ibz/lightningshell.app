@@ -23,7 +23,7 @@ NB: This feature was added in [v0.1.7](/history#v0.1.7).
 
 Lightning Shell doesn't support `cron`, but your host OS such as Umbrel does. You can edit the crontab using `crontab -e` (after you have SSHed into your Umbrel!).
 
-You can then use [`lsh_exec.sh`](/faq#lsh_exec.sh) to execute Lightning Shell commands from Umbrel's `cron`. If you want the data returned by these commands to be available in Lightning Shell, you just have to save it under `/mnt/data/umbrel/app-data/lightning-shell/data/`.
+You can then use [`lsh_exec_ni.sh`](/faq#lsh_exec.sh) to execute Lightning Shell commands from Umbrel's `cron`. If you want the data returned by these commands to be available in Lightning Shell, you just have to save it under `/mnt/data/umbrel/app-data/lightning-shell/data/`.
 
 For example, you could do the following:
 
@@ -41,12 +41,14 @@ For example, you could do the following:
 
    `csview /data/btc.csv`
 
-<h2 id="lsh_exec.sh">What is lsh_exec.sh?</h2>
+<h2 id="lsh_exec.sh">What are lsh_exec.sh / lsh_exec_ni.sh?</h2>
 
-NB: This feature was added in [v0.1.8](/history#v0.1.8).
+NB: `lsh_exec.sh` was added in [v0.1.8](/history#v0.1.8) and `lsh_exec_ni.sh` was added in [v0.1.10](/history#v0.1.10).
 
-This script can be used to execute Lightning Shell commands from Umbrel. For example:
+These scripts can be used to execute Lightning Shell commands from Umbrel. For example you can run `suez` from Umbrel using the following:
 
 ```
 /mnt/data/umbrel/app-data/lightning-shell/data/lsh_exec.sh suez
 ```
+
+The difference between the two is that `lsh_exec.sh` passes `-it` to Docker while `lsh_exec_ni.sh` does not. The latter is to be used from `cron` scripts, for example.
